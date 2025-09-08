@@ -4,7 +4,7 @@
 
 ## Overview:
 1. Introduction to Capture the Flags presentation
-2. Practice CTF competition
+2. Practice CTF competition - [ctf.abits.cloud](ctf.abits.cloud)
 3. Networking - **Don't leave before you talk to 2 new people**
     - Write their infromation down somewhere!
 
