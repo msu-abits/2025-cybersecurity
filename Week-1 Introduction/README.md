@@ -18,3 +18,8 @@
 - "Do you have a favorite part of cybersecurity?"
 
 ---
+## Big Cyber News: 
+- [Dark Reading: Cloudflare Holds Back the Tide on 11.5Tbps DDoS Attack](https://www.darkreading.com/cyberattacks-data-breaches/cloudflare-ddos-attacks-new-heights)
+- [Supply chain: 18 NPM packages HACKED!](https://krebsonsecurity.com/2025/09/18-popular-code-packages-hacked-rigged-to-steal-crypto/)
+
+---
