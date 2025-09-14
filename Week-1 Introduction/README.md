@@ -10,6 +10,9 @@
 
 ---
 
+## CTF SOLUTIONS:
+- https://github.com/msu-abits/fall2025-abitsctf
+
 ## Networking questions:
 - "Where are you from?"
 - "Why Missouri State?"
