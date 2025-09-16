@@ -13,3 +13,4 @@
 
 ## Important References:
 - [My CTF Multitool repo github.com/OlsonTyler0/ctf-multitool](https://github.com/OlsonTyler0/ctf-multitool)
+- [Solving a real investigation using OSINT](https://www.youtube.com/watch?v=Lij0cpFl9Bw)
