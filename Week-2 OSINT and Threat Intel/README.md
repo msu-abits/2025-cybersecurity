@@ -5,14 +5,16 @@
 ## Overview:
 1. OSINT Introduction
 2. OSINT for attackers
-  - [Solving a real investigation using OSINT, Geolocation of an image](https://www.youtube.com/watch?v=Lij0cpFl9Bw)
 4. OSINT for defenders
 
 ---
 
 ## Big Cyber News:
-- [More NPM Repo's Compromised](https://cybersecuritynews.com/npm-supply-chain-attack-crowdstrike/)
+- [More NPM Repo's Compromised, Shai-Hulud worm](https://krebsonsecurity.com/2025/09/self-replicating-worm-hits-180-software-packages/)
 - [Burger king hacked](https://www.techradar.com/pro/security/burger-king-hacked-ethical-hackers-crack-fast-food-security-and-find-its-as-fragile-as-a-french-fry)
+- [Satelites come under fire by adversary](https://www.darkreading.com/cyberattacks-data-breaches/iranian-state-apt-telcos-satellite-companies)
+- [ChatGPT confirmed use by North Korean group, Making military ID deepfakes](https://www.darkreading.com/cyberattacks-data-breaches/north-korean-group-south-military-id-deepfakes)
+- [$250 a month, to host a botnet?](https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/)
 
 
 ## Important References:
