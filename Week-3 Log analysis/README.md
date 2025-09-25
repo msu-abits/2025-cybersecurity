@@ -1,6 +1,6 @@
 # Week 3: Log Analysis
 
-![]([https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG0zaDAzZnZxamV1MXhmMmNlZXB1dTl1NGN3M3plMmdveWJ2cWFtMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qRe6xgfn9QNLa/giphy.gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm8wM29pajVscjVid2NkdHZuN3p0bXp4MzI1NGs3bWFsM3Vzd3hibSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2c3E1JNkOJ2Ba/giphy.gif))
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnZ3dGdleWUxcDg1OXZvM2ZqM3UzNHE0aXVmZGYzOXY2OXN0OW53MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J3MKIlqmX5CfcnS/giphy.gif)
 
 ## Overview: 
 1. Introduction to Log Analysis
