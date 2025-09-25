@@ -11,6 +11,7 @@
 
 ## Links 
 - [TryHackMe Soc Simulator](https://tryhackme.com/soc-sim/?ref=nav)
+- [Splunk Server](splunk.abits.cloud) - Login infromation was given out by hand, reachout if required.
 
 ## Additional References:
 - [TryHackMe: Log Analysis Module](https://tryhackme.com/module/log-analysis)
@@ -24,5 +25,3 @@
     - [Security Now 1043: Memory Integrity Enforcement](https://twit.tv/shows/security-now/episodes/1043?autostart=false)
 - [Crypto ATM operator sued for exploiting scams](https://oag.dc.gov/release/attorney-general-schwalb-sues-crypto-atm-operator)
 - [Cybercrime group collaboration? Scattered LapSus Hunters](https://dailysecurityreview.com/cyber-security/shinyhunters-scattered-spider-lapsus-cybercrime-alliance/)
-
-## Important References
