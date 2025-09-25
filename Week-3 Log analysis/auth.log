@@ -1,0 +1,198 @@
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: new group: name=ubuntu, GID=1001
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: new user: name=ubuntu, UID=1001, GID=1001, home=/home/ubuntu, shell=/bin/bash, from=none
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'adm'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'dialout'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'cdrom'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'floppy'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'sudo'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'audio'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'dip'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'video'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'plugdev'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'netdev'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to group 'lxd'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'adm'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'dialout'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'cdrom'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'floppy'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'sudo'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'audio'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'dip'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'video'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'plugdev'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'netdev'
+Sep 25 04:06:44 ubuntu-jammy useradd[671]: add 'ubuntu' to shadow group 'lxd'
+Sep 25 04:06:44 ubuntu-jammy passwd[679]: password for 'ubuntu' changed by 'root'
+Sep 25 04:06:44 ubuntu-jammy systemd-logind[705]: New seat seat0.
+Sep 25 04:06:44 ubuntu-jammy systemd-logind[705]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 25 04:06:44 ubuntu-jammy systemd-logind[705]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Sep 25 04:06:44 ubuntu-jammy systemd-logind[705]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Sep 25 04:06:45 ubuntu-jammy sshd[801]: Server listening on 0.0.0.0 port 22.
+Sep 25 04:06:45 ubuntu-jammy sshd[801]: Server listening on :: port 22.
+Sep 25 04:06:46 ubuntu-jammy sshd[806]: Accepted publickey for vagrant from 10.0.2.2 port 33738 ssh2: RSA SHA256:1M4RzhMyWuFS/86uPY/ce2prh/dVTHW7iD2RhpquOZA
+Sep 25 04:06:46 ubuntu-jammy sshd[806]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:06:46 ubuntu-jammy systemd-logind[705]: New session 1 of user vagrant.
+Sep 25 04:06:46 ubuntu-jammy systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:06:49 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:49 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:49 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:50 ubuntu-jammy sshd[806]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:06:50 ubuntu-jammy systemd-logind[705]: Session 1 logged out. Waiting for processes to exit.
+Sep 25 04:06:50 ubuntu-jammy systemd-logind[705]: Removed session 1.
+Sep 25 04:06:50 ubuntu-jammy sshd[1145]: Accepted publickey for vagrant from 10.0.2.2 port 34930 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:06:50 ubuntu-jammy sshd[1145]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:06:50 ubuntu-jammy systemd-logind[705]: New session 3 of user vagrant.
+Sep 25 04:06:51 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:51 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:51 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:51 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:51 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:51 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:52 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:52 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:52 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:52 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:52 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:52 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:52 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:52 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:52 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:52 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:52 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:52 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:52 ubuntu-jammy useradd[1551]: new user: name=lxd, UID=999, GID=100, home=/var/snap/lxd/common/lxd, shell=/bin/false, from=none
+Sep 25 04:06:53 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:53 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:53 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:53 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:53 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:53 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:53 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:53 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:54 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:54 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:54 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:54 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:54 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:54 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:54 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:55 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:55 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:55 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:55 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:55 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:55 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:55 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:55 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:55 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:56 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:56 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:56 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:57 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:57 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:06:57 ubuntu-jammy sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:06:57 ubuntu-jammy sudo:  vagrant : PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/bash -l
+Sep 25 04:06:57 ubuntu-jammy sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Sep 25 04:07:23 ubuntu-jammy sshd[1201]: Connection reset by 10.0.2.2 port 42756 [preauth]
+Sep 25 04:08:06 webserver-logs groupadd[4792]: group added to /etc/group: name=ssl-cert, GID=121
+Sep 25 04:08:06 webserver-logs groupadd[4792]: group added to /etc/gshadow: name=ssl-cert
+Sep 25 04:08:06 webserver-logs groupadd[4792]: new group: name=ssl-cert, GID=121
+Sep 25 04:08:38 webserver-logs sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:08:38 webserver-logs sshd[1145]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:08:38 webserver-logs systemd-logind[705]: Session 3 logged out. Waiting for processes to exit.
+Sep 25 04:08:38 webserver-logs systemd-logind[705]: Removed session 3.
+Sep 25 04:08:49 webserver-logs systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Sep 25 04:09:01 webserver-logs CRON[12058]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 25 04:09:01 webserver-logs CRON[12058]: pam_unix(cron:session): session closed for user root
+Sep 25 04:10:15 webserver-logs sshd[12109]: Accepted publickey for vagrant from 10.0.2.2 port 42952 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:10:15 webserver-logs sshd[12109]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:10:15 webserver-logs systemd-logind[705]: New session 5 of user vagrant.
+Sep 25 04:10:15 webserver-logs systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:10:36 webserver-logs sudo:  vagrant : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su
+Sep 25 04:10:36 webserver-logs sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Sep 25 04:10:36 webserver-logs su: (to root) root on pts/1
+Sep 25 04:10:36 webserver-logs su: pam_unix(su:session): session opened for user root(uid=0) by vagrant(uid=0)
+Sep 25 04:15:20 webserver-logs su: pam_unix(su:session): session closed for user root
+Sep 25 04:15:20 webserver-logs sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:15:22 webserver-logs sshd[12174]: Received disconnect from 10.0.2.2 port 42952:11: disconnected by user
+Sep 25 04:15:22 webserver-logs sshd[12174]: Disconnected from user vagrant 10.0.2.2 port 42952
+Sep 25 04:15:22 webserver-logs sshd[12109]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:15:22 webserver-logs systemd-logind[705]: Session 5 logged out. Waiting for processes to exit.
+Sep 25 04:15:22 webserver-logs systemd-logind[705]: Removed session 5.
+Sep 25 04:15:51 webserver-logs sshd[12317]: Accepted publickey for vagrant from 10.0.2.2 port 49348 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:15:51 webserver-logs sshd[12317]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:15:51 webserver-logs systemd-logind[705]: New session 7 of user vagrant.
+Sep 25 04:15:51 webserver-logs systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:15:53 webserver-logs sshd[12382]: Received disconnect from 10.0.2.2 port 49348:11: disconnected by user
+Sep 25 04:15:53 webserver-logs sshd[12382]: Disconnected from user vagrant 10.0.2.2 port 49348
+Sep 25 04:15:53 webserver-logs sshd[12317]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:15:53 webserver-logs systemd-logind[705]: Session 7 logged out. Waiting for processes to exit.
+Sep 25 04:15:53 webserver-logs systemd-logind[705]: Removed session 7.
+Sep 25 04:16:46 webserver-logs sshd[12395]: Accepted publickey for vagrant from 10.0.2.2 port 55382 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:16:46 webserver-logs sshd[12395]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:16:46 webserver-logs systemd-logind[705]: New session 9 of user vagrant.
+Sep 25 04:16:46 webserver-logs systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:16:48 webserver-logs sshd[12450]: Received disconnect from 10.0.2.2 port 55382:11: disconnected by user
+Sep 25 04:16:48 webserver-logs sshd[12450]: Disconnected from user vagrant 10.0.2.2 port 55382
+Sep 25 04:16:48 webserver-logs sshd[12395]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:16:48 webserver-logs systemd-logind[705]: Session 9 logged out. Waiting for processes to exit.
+Sep 25 04:16:48 webserver-logs systemd-logind[705]: Removed session 9.
+Sep 25 04:17:01 webserver-logs CRON[12466]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 25 04:17:01 webserver-logs CRON[12466]: pam_unix(cron:session): session closed for user root
+Sep 25 04:17:50 webserver-logs sshd[12469]: Accepted publickey for vagrant from 10.0.2.2 port 45754 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:17:50 webserver-logs sshd[12469]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:17:50 webserver-logs systemd-logind[705]: New session 12 of user vagrant.
+Sep 25 04:17:50 webserver-logs systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:17:51 webserver-logs sshd[12534]: Received disconnect from 10.0.2.2 port 45754:11: disconnected by user
+Sep 25 04:17:51 webserver-logs sshd[12534]: Disconnected from user vagrant 10.0.2.2 port 45754
+Sep 25 04:17:51 webserver-logs sshd[12469]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:17:51 webserver-logs systemd-logind[705]: Session 12 logged out. Waiting for processes to exit.
+Sep 25 04:17:51 webserver-logs systemd-logind[705]: Removed session 12.
+Sep 25 04:17:57 webserver-logs sshd[12536]: Accepted publickey for vagrant from 10.0.2.2 port 45766 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:17:57 webserver-logs sshd[12536]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:17:57 webserver-logs systemd-logind[705]: New session 14 of user vagrant.
+Sep 25 04:17:57 webserver-logs sshd[12583]: Received disconnect from 10.0.2.2 port 45766:11: disconnected by user
+Sep 25 04:17:57 webserver-logs sshd[12583]: Disconnected from user vagrant 10.0.2.2 port 45766
+Sep 25 04:17:57 webserver-logs sshd[12536]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:17:57 webserver-logs systemd-logind[705]: Session 14 logged out. Waiting for processes to exit.
+Sep 25 04:17:57 webserver-logs systemd-logind[705]: Removed session 14.
+Sep 25 04:18:05 webserver-logs sshd[12585]: Accepted publickey for vagrant from 10.0.2.2 port 51850 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:18:05 webserver-logs sshd[12585]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:18:05 webserver-logs systemd-logind[705]: New session 15 of user vagrant.
+Sep 25 04:18:25 webserver-logs sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/cp /var/log/access.log ./
+Sep 25 04:18:25 webserver-logs sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Sep 25 04:18:25 webserver-logs sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:18:32 webserver-logs sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/cp /var/log/apache2/access.log ./
+Sep 25 04:18:32 webserver-logs sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Sep 25 04:18:32 webserver-logs sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:18:48 webserver-logs sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/chown vagrant:vagrant access.log
+Sep 25 04:18:48 webserver-logs sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Sep 25 04:18:48 webserver-logs sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:18:52 webserver-logs sshd[12632]: Received disconnect from 10.0.2.2 port 51850:11: disconnected by user
+Sep 25 04:18:52 webserver-logs sshd[12632]: Disconnected from user vagrant 10.0.2.2 port 51850
+Sep 25 04:18:52 webserver-logs sshd[12585]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:18:52 webserver-logs systemd-logind[705]: Session 15 logged out. Waiting for processes to exit.
+Sep 25 04:18:52 webserver-logs systemd-logind[705]: Removed session 15.
+Sep 25 04:19:04 webserver-logs sshd[12659]: Accepted publickey for vagrant from 10.0.2.2 port 38186 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:19:04 webserver-logs sshd[12659]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:19:04 webserver-logs systemd-logind[705]: New session 16 of user vagrant.
+Sep 25 04:19:04 webserver-logs systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:19:04 webserver-logs sshd[12724]: Received disconnect from 10.0.2.2 port 38186:11: disconnected by user
+Sep 25 04:19:04 webserver-logs sshd[12724]: Disconnected from user vagrant 10.0.2.2 port 38186
+Sep 25 04:19:04 webserver-logs sshd[12659]: pam_unix(sshd:session): session closed for user vagrant
+Sep 25 04:19:04 webserver-logs systemd-logind[705]: Session 16 logged out. Waiting for processes to exit.
+Sep 25 04:19:04 webserver-logs systemd-logind[705]: Removed session 16.
+Sep 25 04:19:15 webserver-logs sshd[12727]: Accepted publickey for vagrant from 10.0.2.2 port 36620 ssh2: ED25519 SHA256:xBDflKuFw2HQia3tA4HvIsxYuXdiTBUemJZ3TdeVQb0
+Sep 25 04:19:15 webserver-logs sshd[12727]: pam_unix(sshd:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:19:15 webserver-logs systemd-logind[705]: New session 18 of user vagrant.
+Sep 25 04:19:15 webserver-logs systemd: pam_unix(systemd-user:session): session opened for user vagrant(uid=1000) by (uid=0)
+Sep 25 04:19:29 webserver-logs sudo:  vagrant : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su
+Sep 25 04:19:29 webserver-logs sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Sep 25 04:19:29 webserver-logs su: (to root) root on pts/1
+Sep 25 04:19:29 webserver-logs su: pam_unix(su:session): session opened for user root(uid=0) by vagrant(uid=0)
+Sep 25 04:19:43 webserver-logs su: pam_unix(su:session): session closed for user root
+Sep 25 04:19:43 webserver-logs sudo: pam_unix(sudo:session): session closed for user root
+Sep 25 04:19:48 webserver-logs sudo:  vagrant : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/su
+Sep 25 04:19:48 webserver-logs sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vagrant(uid=1000)
+Sep 25 04:19:48 webserver-logs su: (to root) root on pts/1
+Sep 25 04:19:48 webserver-logs su: pam_unix(su:session): session opened for user root(uid=0) by vagrant(uid=0)
