@@ -1,6 +1,6 @@
 # Week 3: Log Analysis
 
-![]()
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG0zaDAzZnZxamV1MXhmMmNlZXB1dTl1NGN3M3plMmdveWJ2cWFtMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qRe6xgfn9QNLa/giphy.gif)
 
 ## Overview: 
 1. Introduction to Log Analysis
