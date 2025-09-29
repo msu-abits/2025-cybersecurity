@@ -11,7 +11,7 @@
 
 ## Links 
 - [TryHackMe Soc Simulator](https://tryhackme.com/soc-sim/?ref=nav)
-- [Splunk Server](splunk.abits.cloud) - Login infromation was given out by hand, reachout if required.
+- [Splunk Server](https://splunk.abits.cloud) - Login infromation was given out by hand, reachout if required.
 
 ## Additional References:
 - [TryHackMe: Log Analysis Module](https://tryhackme.com/module/log-analysis)
