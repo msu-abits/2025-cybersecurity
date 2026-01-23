@@ -13,6 +13,7 @@
 ------------------------
 - [My CTF Multitool repo: github.com/OlsonTyler0/ctf-multitool](https://github.com/OlsonTyler0/ctf-multitool)
 - [Attendance form + feedback](https://forms.office.com/Pages/ResponsePage.aspx?id=5DDYyk9VYUO65chlIz-3fyCE_oUnN7pJm0rlt31t_ShUOUlTWVFQSjIzT1MzMUtXOUkxSDhYVkRJRS4u)
+- [Survey link](https://forms.office.com/Pages/ResponsePage.aspx?id=5DDYyk9VYUO65chlIz-3fyCE_oUnN7pJm0rlt31t_ShUOUlTWVFQSjIzT1MzMUtXOUkxSDhYVkRJRS4u)
 
 ### Competitions:
 - [National Cyber League](https://nationalcyberleague.org/)
