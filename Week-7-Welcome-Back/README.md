@@ -27,6 +27,10 @@
 
 
 ## Big Cyber News: 
+
+- [New open source model can clone voices in a worryingly good way (Jeff Geerling Youtube)](https://www.youtube.com/watch?v=dQ841Pd6YvQ&pp=ygUpZWxldmVuIGxhYnMganVzdCBnb3QgbnVrZWQgYnkgb3BlbiBzb3VyY2U%3D)
+  - Since it is easier to generate voices we will likely see a lot more cloned voices
+
 - [Kimwolf botnet is stealing network connections, specifically android TV boxes to expand their influence](https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/)
 
 - [Protecting our best physical athletes (upcoming olympics) from cyber attacks](https://www.darkreading.com/remote-workforce/winter-olympics-podium-cyberattackers)
