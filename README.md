@@ -1,5 +1,5 @@
 # 2025 Cybersecurity Project Repository
-This github repository contains all information related to the 2025 Cybersecurity project week-by-week.
+This github repository contains all information related to the Association for Business Infromation Technology Students (ABITS) Project hosted by Tyler Olson. Fall / Spring information enclosed
 
 This will include any:
 - Instruction documents
