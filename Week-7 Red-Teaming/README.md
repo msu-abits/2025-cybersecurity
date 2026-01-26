@@ -24,6 +24,6 @@ LABS:
 
 
 ## Additional Resources
-
+- [Hacktricks hacking book (Open source!)](https://book.hacktricks.wiki/en/index.html)
 
 ## Big Cyber News: 
