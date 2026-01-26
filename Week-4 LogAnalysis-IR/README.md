@@ -3,6 +3,7 @@
 ![]()
 
 ## Overview: 
+This week continued log analysis talk but with just a simple tryhackme room.
 1. TryHackMe https://tryhackme.com/room/investigatingwindows 
 
 ---
