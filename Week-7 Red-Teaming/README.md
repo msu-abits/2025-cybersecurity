@@ -11,6 +11,13 @@ LABS:
 - Running your first reconisance and brute forcing SSH
 
 ---
+## On the horizon...
+- March 26th - 28th: America's Innovate IT Conference
+- April 10 - 12th: National Cyber League Spring competition
+- April 18th: Sparkcon 2026
+
+
+---
 ## Important references:
 ------------------------
 - [My CTF Multitool repo: github.com/OlsonTyler0/ctf-multitool](https://github.com/OlsonTyler0/ctf-multitool)
