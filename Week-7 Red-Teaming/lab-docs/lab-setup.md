@@ -1,5 +1,5 @@
 # Lab Setup Document
-This document will go through the steps required to setup the lab for the next 2 days. 
+This document will go through the proper setup for the lab for the W7 Lab. With instructions on setting up VirtualBox and installing the images
 
 ## Requirements:
 - Computer with [Virtual Box](https://www.virtualbox.org/) installed.
@@ -29,13 +29,13 @@ apt install VirtualBox
 
 1. Download the applicable virtual machine images
 **KALI** - Image can be found at (https://www.kali.org/get-kali/#kali-virtual-machines) - Make sure to select the "VirtualBox" image. Unzip the downloaded file
-**Target-Linux** - Image has been uploaded in the lab files for this week. you will use the .ova image and import it into virtual box to create the virtual machine. 
+**Target-Linux** - Image has been uploaded in the lab files for this week. You will see target-linux.ova
 
 2. Import the Kali Virtual machine Image
 **Launch Virtual Box**
 ![IMAGE HERE]()
 
-**Click the "Add" button and select the appicable virtual machine image**
+**Click the "Import" button and select the appicable virtual machine image**
 ![IMAGE HERE]()
 
 **The image has now been imported and should look like this**
@@ -44,7 +44,7 @@ apt install VirtualBox
 **Launch Virtual Box**
 ![IMAGE HERE]()
 
-**Click the "Add" button and select the appicable virtual machine image**
+**Click the "Import" button and select the appicable virtual machine image**
 ![IMAGE HERE]()
 
 **The image has now been imported and should look like this**
@@ -52,5 +52,7 @@ apt install VirtualBox
 
 ---
 
-3. Testing and verification
-- Start both of the machines using the "Start" command and allow them to open their windows. if they succesfully open and show a login screen, the lab has been properly setup!
+3. Networking
+- Click the "preferences" for each virtual machine and make sure it is either bridged networking or host only. This will ensure you can contact the machines. "NAT" will result in the machine being able to access the internet but issues when routing between virtual machines
+
+Thats it! Setting up VMs are super simple and have the ability to do backups. I highly recomend at the start of this to take a backup image of the current machine, you can do this in the "Snapshots" tab that will make a backup that you can restore to, so break, hack, and then just bring it back to the original state!
