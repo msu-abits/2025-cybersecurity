@@ -1,5 +1,5 @@
 # Week 8 - Hacking time
-![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2RieWkza3prb2dycTNmcHA2djdtZmZ0c2J6MW9wbmJwdmppZ3d1MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lZfieM3rRK5ZTMOnNd/giphy.gif)
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3A1NnhuOHkxeDZiajVza3JuNjY1M296Zmk2N2MyejNsM2p1NDBjZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/115BJle6N2Av0A/giphy.gif)
 
 ## Overview:
 - Have you wanted to hack? Well lets do some hackin!
@@ -14,13 +14,14 @@
 ## CTF Approaching Soon:
 - [Snyk CTF - hosted by Nahmasec](https://snyk.io/events/ctf/) - February 12, 12 pm ET to February 13, 12 pm ET.
 
----
 ## Important references:
-------------------------
 - [My CTF Multitool repo: github.com/OlsonTyler0/ctf-multitool](https://github.com/OlsonTyler0/ctf-multitool)
 - [Learning recomendations: github.com/msu-abits/cyber-resource-list](https://github.com/msu-abits/cyber-resource-list)
 - [Mitre Att&ck](https://attack.mitre.org/)
 - [Pico CTF - On-demand CTF challenges](https://picoctf.org/)
+
+
+---
 
 
 ## Additional Resources
