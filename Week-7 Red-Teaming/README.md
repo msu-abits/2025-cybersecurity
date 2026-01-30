@@ -19,6 +19,7 @@
 - [Learning recomendations: github.com/msu-abits/cyber-resource-list](https://github.com/msu-abits/cyber-resource-list)
 - [Mitre Att&ck](https://attack.mitre.org/)
 - [Pico CTF - On-demand CTF challenges](https://picoctf.org/)
+- [Onedrive - VM Image](https://livemissouristate-my.sharepoint.com/:u:/g/personal/to329s_login_missouristate_edu/IQAVgazYLMDbQbAhKF52e-QfAb5shRsjRSrnlhTumnTYQF4?e=RVbzyx)
 
 
 ---
