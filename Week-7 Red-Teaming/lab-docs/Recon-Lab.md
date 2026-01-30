@@ -30,7 +30,7 @@ In order to understand the environment our VM is in, we need to look at where we
 ip addr
 ```
 
-3. Gather the IP from the target machine
+**3. Gather the IP from the target machine**
 Switch over to the target vm logging in with the credentials of `msustudent:$tudent1` this should provide you the desktop, navigate to the terminal and type the same command as before.
 
 ```sh
@@ -70,38 +70,52 @@ nmap <Target Linux IP address>
 
 When the scan finishes we can see the following ports that are responding to us:
 ```markdown:
-- 80: HTTP
+- 21: FTP
 - 22: SSH
-- 23: Telnet
+- 23: telnet
+- 80: http
+- 130: netbios
+- 445 - Microsoft-ds
 ```
 
 6. Finding the open services
 However, we know they are open but don't know what is being hosted! NMAP can help with that by doing "service detection" that will attempt to gather information about the service that is being hosted on the system
 ```sh
-nmap -o -sV <Target Linux IP address>
+nmap -sV <Target Linux IP address>
 ```
 > -sV stands for the service scanning option avalible in NMAP
-> -o does OS Discovery, it estimates based on the open ports what the server might be
 
-We now know on port 22 is an Open SSH Server,
-and on port 80 is an apache server. Telnet also speaks out to me here since I know of [CVE-2026-24061](https://nvd.nist.gov/vuln/detail/CVE-2026-24061)
+So here's what we know:
+```markdown
+- FTP, or File Transfer Protocol is open, there is likely files here that we could investigate that could help us.
+- We now know on port 22 is an Open SSH Server, SSH is used to remotely connect to a server and could be of interest to us
+- Telnet also speaks out to me here since I know of [CVE-2026-24061](https://nvd.nist.gov/vuln/detail/CVE-2026-24061)
+- Port 80 is the HTTP protocol, the basis behind websites! Theres an open website to look at here!
+- Port 139 and 445 seems to be an SMB share more files to find! (Windows version of FTP)
+```
 
-> NMAP will scan the most common ports up to port 1024. However 65535 different ports exist and can be used for multiudes of different purposes
+> NMAP will scan the most common ports by default, and not the entire port list. 65535 different ports exist and can be used for multiudes of different purposes. see: https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers for a list of ports
 
 7. Gathering information about the web server
 A common term given to information gathering in a web server is called "banner grabbing" its the act of taking the text returned first in a http response and trying to get data from it to see if we can find out if the server is running older versions of software or another vulnerability. to do this we will use: 
 
 ```sh
 nc <target> 80
+GET # Makes a malformed request, but we can see what the web server returns
+curl <target> # Helps make a legit request, you can now see an easter egg! We will cover this more when we talk web hacking soon
 ```
 This will give you basic info by connecting you to a text line!
 
-we can see this server is actually the homepage for our company we are engaging Blume Corportaion. It appears to be running apache.
+Lets also open firefox, in the top corner of kali and connect to the server on this port 80. 
+```markdown
+http://<target>:80
+```
+we can see this server is actually the homepage for our company we are engaging Blume Corportaion. as identified before, its running apache. Its possible this server could be exploited, and we will learn that soon but for now we will use antoher method.
 
 8. Integrating OSINT
-Now we have all the versions here is best to integrate OSINT and try to look into the versions installed. Google the version of the software mentioned. Google the version number and software name and include the key term "CVE"
+Now we have all the versions, it is best to integrate OSINT and try to look into the versions installed. Google the version of the software mentioned. Google the version number and software name and include the key term "CVE"
 
-Did you find any vulnerabilities? anything critical? Keep this in mind
+Did you find any vulnerabilities? anything critical? Keep this in mind for the next part.
 
 ---
 
