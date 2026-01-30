@@ -35,7 +35,7 @@ apt install VirtualBox
 **Launch Virtual Box**
 ![IMAGE HERE]()
 
-**Click the "Import" button and select the appicable virtual machine image**
+**Click the "Open" button and select the appicable virtual machine image**
 ![IMAGE HERE]()
 
 **The image has now been imported and should look like this**
@@ -53,6 +53,6 @@ apt install VirtualBox
 ---
 
 3. Networking
-- Click the "preferences" for each virtual machine and make sure it is either bridged networking or host only. This will ensure you can contact the machines. "NAT" will result in the machine being able to access the internet but issues when routing between virtual machines
+- Click the "preferences" for each virtual machine and make sure it is either bridged networking or host only. This will ensure you can contact the machines. "NAT" will result in the machine being able to access the internet but issues when routing between virtual machines. _The target linux image requires this setting to be changed before it will properly boot. make sure you've looked at it._
 
 Thats it! Setting up VMs are super simple and have the ability to do backups. I highly recomend at the start of this to take a backup image of the current machine, you can do this in the "Snapshots" tab that will make a backup that you can restore to, so break, hack, and then just bring it back to the original state!
