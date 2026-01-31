@@ -120,4 +120,6 @@ Make adapter 2 "Internal Network"
 
 This will ensure you can contact the machines. "NAT" will result in the machine being able to access the internet but issues when routing between virtual machines. _The target linux image requires this setting to be changed before it will properly boot. make sure you've looked at it._ if you encounter an error on first launching this is where it will be.
 
+---
+
 Thats it! Setting up VMs are super simple and have the ability to do backups. I highly recomend at the start of this to take a backup image of the current machine, you can do this in the "Snapshots" tab that will make a backup that you can restore to, so break, hack, and then just bring it back to the original state!
