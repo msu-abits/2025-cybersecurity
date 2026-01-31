@@ -5,20 +5,30 @@ This document will go through the proper setup for the lab for the W7 Lab. With 
 - Computer with [Virtual Box](https://www.virtualbox.org/) installed.
 
 ## Network Overview
-| Machine Hostname | OS/Version   | user:password |
-|------------------|--------------|---------------|
-| Kali             | Kali Linux   | kali:kali     |
-| target-linux     | Ubuntu 24.04 | ubuntu:ubuntu |
+| Machine Hostname | OS/Version   | user:password       | Download Link |
+|------------------|--------------|---------------------|---------------|
+| Kali             | Kali Linux   | kali:kali           |[image](https://cdimage.kali.org/kali-2025.4/kali-linux-2025.4-virtualbox-amd64.7z) |
+| target-linux     | Ubuntu 24.04 | msustudent:$tudent1 | [image](https://livemissouristate-my.sharepoint.com/:u:/g/personal/to329s_login_missouristate_edu/IQAVgazYLMDbQbAhKF52e-QfAb5shRsjRSrnlhTumnTYQF4?e=JoyK4c) |
 
 ---
 ## Introduction
 This lab uses virtual machine images to work with the "Virtual Box" Hyprvisor, a Hyprvisor is a kind of software utilized to emulate entire computers allowing for easy containement and testing of different software. While it can be simple to initally setup it usually requires constant maintenece
 
 ---
+## Table of contents
+- [setup instructions](#setup-instructions)
+- [Download the images](#downoading-the-images)
+  - [Kali Linux](#kali-image)
+  - [Target](#target-linux-machine)
+ - [import images](#import-images)
+ - [netowrking](#networking-for-lab-machines)
+ - WIP: Snapshots
+
+---
 
 ## Setup Instructions
 
-0. Install Virtual box Hyprvisor
+### Install Virtual box Hyprvisor
 [Virtual Box Website https://www.virtualbox.org/](https://www.virtualbox.org/)
 
 <img width="904" height="445" alt="image" src="https://github.com/user-attachments/assets/dda17a59-8cce-455d-b163-716cd3be778e" />
@@ -37,10 +47,15 @@ apt install VirtualBox
 
 You will have to make sure your computer is compatible with virtualization, most modern CPU's do have ethe instructions required but will sometimes require explicit enabling in the bios. See [This microsoft support article regarding enabling virtualization](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1)
 
-1. Download the applicable virtual machine images
-**KALI** - Image can be found at [kali.org](https://www.kali.org/get-kali/#kali-virtual-machines) - Make sure to select the "VirtualBox" image.
-
 ---
+
+### Downloading the images
+
+--- 
+
+#### Kali Linux Image
+Image can be found at [kali.org](https://www.kali.org/get-kali/#kali-virtual-machines) Make sure to select the "VirtualBox" image.
+
 **Nagivate to kali.org**
 <img width="1913" height="910" alt="image" src="https://github.com/user-attachments/assets/6de500e4-80d0-42ca-89ec-ae0489d86804" />
 
@@ -57,16 +72,19 @@ You will have to make sure your computer is compatible with virtualization, most
 
 ---
 
-**Target-Linux** - This image can be obtained on my [one drive account. Due to the size of the image](https://livemissouristate-my.sharepoint.com/:u:/g/personal/to329s_login_missouristate_edu/IQAVgazYLMDbQbAhKF52e-QfAb5shRsjRSrnlhTumnTYQF4?e=JoyK4c) 
+### Target Linux Image
+This image can be obtained on my [one drive account. Due to the size of the image](https://livemissouristate-my.sharepoint.com/:u:/g/personal/to329s_login_missouristate_edu/IQAVgazYLMDbQbAhKF52e-QfAb5shRsjRSrnlhTumnTYQF4?e=JoyK4c) 
 
 This does not require extraction since it is just a single image
 
----
+### Importing the images
 
-3. Import the Kali Virtual machine Image
+#### Importing Kali Linux
+
 **Launch Virtual Box**
 <img width="1914" height="1026" alt="image" src="https://github.com/user-attachments/assets/5ef22b95-9f2e-4fce-83b6-e4e83a2202e6" />
 
+---
 
 **Click the "Open" button and select the appicable virtual machine image**
 <img width="475" height="375" alt="image" src="https://github.com/user-attachments/assets/422f08ff-898a-457c-b574-7f1384864f34" />
@@ -75,7 +93,8 @@ This does not require extraction since it is just a single image
 
 **The image has now been imported and should look like this**
 
-3. Import the Target Linux virtual machine image
+#### Importing Target Linux
+
 **Launch Virtual Box**
 
 **Click the "Import" button and select the appicable virtual machine image**
@@ -86,7 +105,8 @@ This does not require extraction since it is just a single image
 
 ---
 
-3. Networking
+### Networking for the lab machines
+
 - Click the "preferences" OR "settings" for each virtual machine
 <img width="568" height="148" alt="image" src="https://github.com/user-attachments/assets/642a4863-5705-4ac4-a448-3fe3c1321960" />
 
