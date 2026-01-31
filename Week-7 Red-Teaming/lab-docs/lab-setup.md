@@ -71,15 +71,15 @@ This does not require extraction since it is just a single image
 **Click the "Open" button and select the appicable virtual machine image**
 <img width="475" height="375" alt="image" src="https://github.com/user-attachments/assets/422f08ff-898a-457c-b574-7f1384864f34" />
 
+---
 
 **The image has now been imported and should look like this**
 
 3. Import the Target Linux virtual machine image
 **Launch Virtual Box**
-![IMAGE HERE]()
 
 **Click the "Import" button and select the appicable virtual machine image**
-![IMAGE HERE]()
+<img width="512" height="412" alt="image" src="https://github.com/user-attachments/assets/b90760e1-b6d5-41b9-bab8-58e566bf085e" />
 
 **The image has now been imported and should look like this**
 ![IMAGE HERE]()
