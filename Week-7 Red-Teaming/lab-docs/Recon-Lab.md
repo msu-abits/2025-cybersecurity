@@ -11,7 +11,8 @@ This lab is intended to assist in taking the first step in the cyber kill chain 
 ### Why do we Recon?
 Reconnisance is the first stage of the Cyber Kill Chain, a set of steps developed by cybersecurity professionals to help security analysts get the bigger picture of a common attack chain. 
 
-[Cyber Kill Chain Image Here]()
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/e5cbdac5-e862-4e09-ace5-6a7cf386d25c" />
+
 
 ---
 ## PREWORK
@@ -47,6 +48,8 @@ FROM KALI -> Target
 ping <Target Linux IP address>
 ```
 
+<img width="568" height="291" alt="image" src="https://github.com/user-attachments/assets/c40b1c5c-6d22-45d2-8452-090683422e9d" />
+
 If you recieve a message back congrats! you can reach your VM.
 If you do not recieve a message back from your VM see: [Virtual Box Networks Guide](https://www.nakivo.com/blog/virtualbox-network-setting-guide/) to find out more details about how networking with VMs work and ensure they both have access to the same internet.
 - Best bet is to setup a "host only" OR "bridged" networking that will allow you to find the IP easily. "NAT" will _NOT_ work for this use case.
@@ -67,6 +70,9 @@ We will look at what these ports can tell us soon, for now lets get the scan sta
 ```sh
 nmap <Target Linux IP address>
 ```
+<img width="719" height="366" alt="image" src="https://github.com/user-attachments/assets/977ce29c-accb-4d89-8076-7d17c013f116" />
+
+
 
 When the scan finishes we can see the following ports that are responding to us:
 ```markdown:
@@ -84,6 +90,8 @@ However, we know they are open but don't know what is being hosted! NMAP can hel
 nmap -sV <Target Linux IP address>
 ```
 > -sV stands for the service scanning option avalible in NMAP
+
+<img width="1254" height="521" alt="image" src="https://github.com/user-attachments/assets/df8e08fa-4eae-46a1-ac2d-4c742b8d3ebd" />
 
 So here's what we know:
 ```markdown
@@ -106,11 +114,15 @@ curl <target> # Helps make a legit request, you can now see an easter egg! We wi
 ```
 This will give you basic info by connecting you to a text line!
 
+<img width="630" height="393" alt="image" src="https://github.com/user-attachments/assets/8ff5dd80-46d9-417f-882c-99bb651f4581" />
+
 Lets also open firefox, in the top corner of kali and connect to the server on this port 80. 
 ```markdown
 http://<target>:80
 ```
 we can see this server is actually the homepage for our company we are engaging Blume Corportaion. as identified before, its running apache. Its possible this server could be exploited, and we will learn that soon but for now we will use antoher method.
+
+<img width="1284" height="805" alt="image" src="https://github.com/user-attachments/assets/3644c43c-b321-4ea1-9cf5-da31febfc94a" />
 
 8. Integrating OSINT
 Now we have all the versions, it is best to integrate OSINT and try to look into the versions installed. Google the version of the software mentioned. Google the version number and software name and include the key term "CVE"
