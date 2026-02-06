@@ -9,6 +9,9 @@
 
 ---
 
+## Attendance:
+- https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=5DDYyk9VYUO65chlIz-3fyCE_oUnN7pJm0rlt31t_ShUMFJFMTRJV1lWQ0FRRVdTRjlYQ1NIUE9SVy4u
+
 ## Important references:
 - [My CTF Multitool repo: github.com/OlsonTyler0/ctf-multitool](https://github.com/OlsonTyler0/ctf-multitool)
 - [Learning recomendations: github.com/msu-abits/cyber-resource-list](https://github.com/msu-abits/cyber-resource-list)
