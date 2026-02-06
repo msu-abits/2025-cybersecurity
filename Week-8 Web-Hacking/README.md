@@ -1,5 +1,6 @@
 # Week 8 - HACK THE PLANETTTT
 ![](https://impanix.com/wp-content/uploads/2023/05/Website-Defacement-Attacks.png)
+
 *Credit: https://impanix.com/security/website-defacement-attacks/*
 
 ## Overview:
