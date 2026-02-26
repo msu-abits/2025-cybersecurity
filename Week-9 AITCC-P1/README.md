@@ -20,7 +20,7 @@
 <p align="center">
   <img src="https://resources.hackthebox.com/hs-fs/hubfs/Hack-The-Madness_Key-Visual_CTF-tournament%20(1).jpg" width="250" alt="Hack The Madness 2026 CTF Tournament"/>
 </p>
-Saturday March 6th 2026 (1pm est?) so noon our time. (unless they make it open all day, unsure at this time)
+Saturday March 7th 2026 (1pm est?) so noon our time. (unless they make it open all day, unsure at this time)
 
 | Resource | Link |
 |---|---|
