@@ -6,7 +6,7 @@
 
 
 ## Overview:
-- Take a look at some of the challenges of USITCC, answer questions / share my answers
+- Take a look at some of the challenges of AITCC, answer questions / share my answers
 - Taking a quick look at digital forensics what it is
 - LAB: Example log searching in CTF Case
 - Leaving you with words of wisdom on personal projects, my advice, and how to continue forward.
