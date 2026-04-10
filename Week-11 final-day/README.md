@@ -18,6 +18,7 @@ Good luck to those in national cyber league this weekend. get those flags
 
 | Resource | link | information |
 |---|---|---|
+| Lab Reference: Mongobleed | https://www.red-gate.com/simple-talk/cloud/security-and-compliance/everything-you-need-to-know-about-mongobleed-cve-2025-14847/ | Lab reference |
 | IT Tools | https://it-tools.tech/ | Handly all in one tool that has some networking tools
 | My CTF Tool Repository | https://github.com/OlsonTyler0/ctf-multitool | Collection of Capture the Flag tools I've collected |
 | My Learning recomendation repository | https://github.com/msu-abits/cyber-resource-list | Collection of learning resources for cybersecurity |
